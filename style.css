@@ -1,0 +1,48 @@
+.list-group-item {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.todo {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.todo__clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.todo__clear svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.todo__text {
+    margin: 0;
+}
+
+.form {
+    display: flex !important;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    width: 100%;
+}
+
+
+.none {
+    display: none !important;
+}
+
+.done {
+    background-color: #e6e6e6 !important;
+}
